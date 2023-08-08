@@ -91,6 +91,20 @@ export default function TopNavbar() {
             </li>
             <li className="semiBold font15 pointer">
               <a
+                href="https://drive.google.com/file/d/1IfwfldFaKmoowiBlzf2YzQXMpi2viRlQ/view?usp=sharing"
+                activeClass="active"
+                target="_blank"
+                rel="noopener noreferrer"
+                spy={true}
+                style={{ padding: "10px 15px" }}
+                smooth={true}
+                offset={-80}
+              >
+                List of Winner
+              </a>
+            </li>
+            <li className="semiBold font15 pointer">
+              <a
                 href="PRESS RELEASE IIF (JAWA TIMUR).pdf"
                 activeClass="active"
                 target="_blank"
@@ -103,6 +117,7 @@ export default function TopNavbar() {
                 Press Release
               </a>
             </li>
+          
             <li className="semiBold font15 pointer">
               <a
                 href="https://drive.google.com/drive/folders/1-4jpAN8xwYZE7UH-35OjxALyahTJwM8w"
@@ -117,7 +132,20 @@ export default function TopNavbar() {
                 Gallery
               </a>
             </li>
-            <li className="semiBold font15 pointer"></li>
+            <li className="semiBold font15 pointer">
+              <Link
+                onClick={() => toggleSidebar(!sidebarOpen)}
+                activeClass="active"
+                className="whiteColor"
+                style={{ color: "white" }}
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={-60}
+              >
+                Contact
+              </Link>
+            </li>
           </UlWrapper>
           <UlWrapperRight className="flexNullCenter">
             <li className="semiBold font15 pointer">
@@ -129,15 +157,15 @@ export default function TopNavbar() {
                 Guide Book
               </a>
             </li>
-            <li className="semiBold font15 pointer flexCenter">
-              {/* <a
+            {/* <li className="semiBold font15 pointer flexCenter"> */}
+            {/* <a
                 href="https://bit.ly/Pendaftaran-IIF-2023"
                 className="radius8 lightBg"
                 style={{ padding: "10px 15px" }}
               >
                 Registrasi
               </a> */}
-            </li>
+            {/* </li> */}
           </UlWrapperRight>
         </NavInner>
       </Wrapper>

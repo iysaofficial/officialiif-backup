@@ -76,29 +76,43 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
           </Link>
         </li>
         <li className="semiBold font15 pointer">
-              <a
-                href="https://drive.google.com/drive/folders/13Jb90dar7KI4cqSKbn66LN3LMszYqiBf?usp=sharing"
-                activeClass="active"
-                target="_blank"
-                rel="noopener noreferrer"
-                spy={true}
-                style={{ color: "white" }}
-                smooth={true}
-                offset={-80}
-              >
-                Curation
-              </a>
-            </li>
+          <a
+            href="https://drive.google.com/drive/folders/13Jb90dar7KI4cqSKbn66LN3LMszYqiBf?usp=sharing"
+            onClick={() => toggleSidebar(!sidebarOpen)}
+            activeClass="active"
+            className="whiteColor"
+            target="_blank"
+            spy={true}
+            smooth={true}
+            offset={-60}
+          >
+            Curation
+          </a>
+        </li>
         <li className="semiBold font15 pointer">
           <a
-            href="PRESS RELEASE IIF (JAWA TIMUR).pdf"
+            href="https://drive.google.com/file/d/1IfwfldFaKmoowiBlzf2YzQXMpi2viRlQ/view?usp=sharing"
+            onClick={() => toggleSidebar(!sidebarOpen)}
             activeClass="active"
+            className="whiteColor"
             target="_blank"
-            rel="noopener noreferrer"
             spy={true}
-            style={{ color: "white" }}
             smooth={true}
-            offset={-80}
+            offset={-60}
+          >
+            List of Winner
+          </a>
+        </li>
+        <li className="semiBold font15 pointer">
+          <a
+            href="https://drive.google.com/file/d/17mLBCeBNiNfX4rhH5JIsLJnk6KQLuetZ/view?usp=drive_link"
+            onClick={() => toggleSidebar(!sidebarOpen)}
+            activeClass="active"
+            className="whiteColor"
+            target="_blank"
+            spy={true}
+            smooth={true}
+            offset={-60}
           >
             Press Release
           </a>
