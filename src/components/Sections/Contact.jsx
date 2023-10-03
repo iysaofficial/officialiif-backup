@@ -20,7 +20,7 @@ export default function Contact() {
           </HeaderInfo>
           <div className="row" style={{ paddingBottom: "30px" }}>
             <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6">
-              <Form>
+              <Form action="https://formspree.io/f/mqkvlevd" method="POST">
                 <label className="font13">Nama Lengkap:</label>
                 <input type="text" id="fname" name="fname" className="font20 extraBold" />
                 <label className="font13">Email:</label>
@@ -28,10 +28,13 @@ export default function Contact() {
                 <label className="font13">Subject:</label>
                 <input type="text" id="subject" name="subject" className="font20 extraBold" />
                 <textarea rows="4" cols="50" type="text" id="message" name="message" className="font20 extraBold" />
-              </Form>
-              <SumbitWrapper className="flex">
-                <ButtonInput type="submit" value="Send Message" className="pointer animate radius8" style={{ maxWidth: "220px" }} />
+                <SumbitWrapper className="flex" style={{}}>
+                <ButtonInput type="submit" value="Kirim Pesan" className="pointer animate radius8" style={{ maxWidth: "190px", display: "flex", flexDirection: "column", justifyContent: "center", color: "white", fontSize: "20px", padding: "40px", background: "#0B093B"}} />
               </SumbitWrapper>
+              </Form>
+              {/* <SumbitWrapper className="flex">
+                <ButtonInput type="submit" value="Send Message" className="pointer animate radius8" style={{ maxWidth: "220px" }} />
+              </SumbitWrapper> */}
             </div>
             {/* <div className="col-xs-12 col-sm-12 col-md-6 col-lg-6 flex">
               <div style={{ width: "50%" }} className="flexNullCenter flexColumn">

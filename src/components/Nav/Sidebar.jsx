@@ -15,7 +15,10 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             fanatic
           </h1> */}
         </div>
-        <CloseBtn onClick={() => toggleSidebar(!sidebarOpen)} className="animate pointer">
+        <CloseBtn
+          onClick={() => toggleSidebar(!sidebarOpen)}
+          className="animate pointer"
+        >
           <CloseIcon />
         </CloseBtn>
       </SidebarHeader>
@@ -32,7 +35,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             smooth={true}
             offset={-60}
           >
-            Home
+            Utama
           </Link>
         </li>
         <li className="semiBold font15 pointer">
@@ -46,7 +49,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             smooth={true}
             offset={-60}
           >
-            About
+            Tentang
           </Link>
         </li>
         <li className="semiBold font15 pointer">
@@ -59,7 +62,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             smooth={true}
             offset={-60}
           >
-            Projects
+            Proyek
           </Link>
         </li>
         <li className="semiBold font15 pointer">
@@ -72,7 +75,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             smooth={true}
             offset={-60}
           >
-            Blog
+            Ketentuan
           </Link>
         </li>
         <li className="semiBold font15 pointer">
@@ -80,13 +83,14 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             href="https://drive.google.com/drive/folders/13Jb90dar7KI4cqSKbn66LN3LMszYqiBf?usp=sharing"
             onClick={() => toggleSidebar(!sidebarOpen)}
             activeClass="active"
+            rel="noreferrer noopener"
             className="whiteColor"
             target="_blank"
             spy={true}
             smooth={true}
             offset={-60}
           >
-            Curation
+            Kurasi
           </a>
         </li>
         <li className="semiBold font15 pointer">
@@ -94,13 +98,14 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             href="https://drive.google.com/file/d/1IfwfldFaKmoowiBlzf2YzQXMpi2viRlQ/view?usp=sharing"
             onClick={() => toggleSidebar(!sidebarOpen)}
             activeClass="active"
+            rel="noreferrer noopener"
             className="whiteColor"
             target="_blank"
             spy={true}
             smooth={true}
             offset={-60}
           >
-            List of Winner
+            Daftar Pemenang
           </a>
         </li>
         <li className="semiBold font15 pointer">
@@ -108,13 +113,14 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             href="https://drive.google.com/file/d/17mLBCeBNiNfX4rhH5JIsLJnk6KQLuetZ/view?usp=drive_link"
             onClick={() => toggleSidebar(!sidebarOpen)}
             activeClass="active"
+            rel="noreferrer noopener"
             className="whiteColor"
             target="_blank"
             spy={true}
             smooth={true}
             offset={-60}
           >
-            Press Release
+            Siara Pers
           </a>
         </li>
         <li className="semiBold font15 pointer">
@@ -128,7 +134,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             smooth={true}
             offset={-80}
           >
-            Gallery
+            Galery
           </a>
         </li>
         {/* <li className="semiBold font15 pointer">
@@ -156,7 +162,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             smooth={true}
             offset={-60}
           >
-            Contact
+            Kontak
           </Link>
         </li>
       </UlStyle>
@@ -167,8 +173,12 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
           </a>
         </li> */}
         <li className="semiBold font15 pointer flexCenter">
-          <a href="https://drive.google.com/file/d/1ObB8FkJLvmaUV3ceiIBBoOuHEzDoRRKY/view?usp=drive_link" className="radius8 lightBg" style={{ padding: "10px 15px" }}>
-            Guide Book
+          <a
+            href="https://drive.google.com/file/d/1ObB8FkJLvmaUV3ceiIBBoOuHEzDoRRKY/view?usp=drive_link"
+            className="radius8 lightBg"
+            style={{ padding: "10px 15px" }}
+          >
+            Buku Panduan
           </a>
         </li>
       </UlStyle>

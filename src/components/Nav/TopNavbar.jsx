@@ -50,7 +50,7 @@ export default function TopNavbar() {
                 smooth={true}
                 offset={-80}
               >
-                Home
+                Utama
               </Link>
             </li>
             <li className="semiBold font15 pointer">
@@ -62,17 +62,31 @@ export default function TopNavbar() {
                 smooth={true}
                 offset={-80}
               >
-                About
+                Tentang
               </Link>
             </li>
             <li className="semiBold font15 pointer">
-              <Link activeClass="active" style={{ padding: "10px 15px" }} to="projects" spy={true} smooth={true} offset={-80}>
-                Projects
+              <Link
+                activeClass="active"
+                style={{ padding: "10px 15px" }}
+                to="projects"
+                spy={true}
+                smooth={true}
+                offset={-80}
+              >
+                Proyek
               </Link>
             </li>
             <li className="semiBold font15 pointer">
-              <Link activeClass="active" style={{ padding: "10px 15px" }} to="blog" spy={true} smooth={true} offset={-80}>
-                Blog
+              <Link
+                activeClass="active"
+                style={{ padding: "10px 15px" }}
+                to="blog"
+                spy={true}
+                smooth={true}
+                offset={-80}
+              >
+                Ketentuan
               </Link>
             </li>
             <li className="semiBold font15 pointer">
@@ -86,7 +100,7 @@ export default function TopNavbar() {
                 smooth={true}
                 offset={-80}
               >
-                Curation
+                Kurasi
               </a>
             </li>
             <li className="semiBold font15 pointer">
@@ -100,7 +114,7 @@ export default function TopNavbar() {
                 smooth={true}
                 offset={-80}
               >
-                List of Winner
+                Daftar Pemenang
               </a>
             </li>
             <li className="semiBold font15 pointer">
@@ -114,10 +128,10 @@ export default function TopNavbar() {
                 smooth={true}
                 offset={-80}
               >
-                Press Release
+                Siaran Pers
               </a>
             </li>
-          
+
             <li className="semiBold font15 pointer">
               <a
                 href="https://drive.google.com/drive/folders/1-4jpAN8xwYZE7UH-35OjxALyahTJwM8w"
@@ -129,19 +143,17 @@ export default function TopNavbar() {
                 smooth={true}
                 offset={-80}
               >
-                Gallery
+                Galeri
               </a>
             </li>
             <li className="semiBold font15 pointer">
               <Link
-                onClick={() => toggleSidebar(!sidebarOpen)}
                 activeClass="active"
-                className="whiteColor"
-                style={{ color: "white" }}
+                style={{ padding: "10px 15px" }}
                 to="contact"
                 spy={true}
                 smooth={true}
-                offset={-60}
+                offset={-80}
               >
                 Contact
               </Link>
@@ -154,7 +166,7 @@ export default function TopNavbar() {
                 className="radius6 lightBg"
                 style={{ padding: "10px 15px" }}
               >
-                Guide Book
+                Buku Panduan
               </a>
             </li>
             {/* <li className="semiBold font15 pointer flexCenter"> */}

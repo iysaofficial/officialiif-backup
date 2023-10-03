@@ -12,7 +12,7 @@ export default function Header() {
     <Wrapper id="home" className="container flexSpaceCenter">
       <LeftSide className="flexCenter">
         <div>
-        <h1 className="extraBold font60">COMING SOON</h1>
+        <h1 className="extraBold font60">SEGERA HADIR</h1>
           <h1 className="extraBold font60">IIF 2024.</h1>
           <HeaderP className="font25 semiBold">
             INVENTION AND INNOVATION FAIR 2023.
