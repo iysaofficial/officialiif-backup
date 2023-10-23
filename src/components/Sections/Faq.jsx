@@ -9,14 +9,14 @@ export default function Faq() {
           <h1 className="garis-bawah text-center mt-5 mb-5 fw-bold">
             Setelah Mendaftar
           </h1>
-          <h1 className="garis-bawah text-center"></h1>
+          {/* <h1 className="garis-bawah text-center"></h1> */}
           {/* <h3 className="garis-bawah"></h3> */}
           <h3>
             1. Minsa, kapan kami akan mendapatkan LoA dan invoice kami ?
             Dikirimnya kemana sih?
           </h3>
           <p class="card-text">
-            Panitia akan mengirimkan LoA dan Invoice selambatnya 7 hari kerja
+            Panitia akan mengirimkan LoA dan Invoice selambatnya 14 hari kerja
             setelah kamu mendaftar. LoA dan Invoice akan kami kirimkan ke email
             ketua tim, jadi pastikan kamu mencantumkan alamat email yang aktif
             dan benar ya!

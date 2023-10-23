@@ -4,76 +4,12 @@ import styled from "styled-components";
 // Assets
 import AddImage2 from "../../assets/img/add/add2.jpg";
 
+
 export default function Pricing() {
   return (
     <Wrapper id="projects">
       <div className="whiteBg">
         <div className="container">
-          {/* <HeaderInfo>
-            <h1 className="font40 extraBold">Our Awesome Projects</h1>
-            <p className="font13">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-              <br />
-              labore et dolore magna aliquyam erat, sed diam voluptua.
-            </p>
-          </HeaderInfo> */}
-          {/* <div className="row textCenter">
-            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <ProjectBox
-                img={ProjectImg1}
-                title="Awesome Project"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
-                action={() => alert("clicked")}
-              />
-            </div>
-            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <ProjectBox
-                img={ProjectImg2}
-                title="Awesome Project"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
-                action={() => alert("clicked")}
-              />
-            </div>
-            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <ProjectBox
-                img={ProjectImg3}
-                title="Awesome Project"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
-                action={() => alert("clicked")}
-              />
-            </div>
-          </div> */}
-          {/* <div className="row textCenter">
-            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <ProjectBox
-                img={ProjectImg4}
-                title="Awesome Project"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
-                action={() => alert("clicked")}
-              />
-            </div>
-            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <ProjectBox
-                img={ProjectImg5}
-                title="Awesome Project"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
-                action={() => alert("clicked")}
-              />
-            </div>
-            <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-              <ProjectBox
-                img={ProjectImg6}
-                title="Awesome Project"
-                text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
-                action={() => alert("clicked")}
-              />
-            </div>
-          </div> */}
-          {/* <div className="row flexCenter">
-            <div style={{ margin: "50px 0", width: "200px" }}>
-              <FullButton title="Load More" action={() => alert("clicked")} />
-            </div>
-          </div> */}
         </div>
       </div>
       <div className="lightBg">
@@ -186,7 +122,6 @@ const AddLeftInner = styled.div`
 `;
 const ImgWrapper = styled.div`
   width: 100%;
-  margin-left: %;
   padding: 10rem;
   iframe {
     width: 100%;
@@ -194,5 +129,6 @@ const ImgWrapper = styled.div`
   }
   @media (max-width: 400px) {
     padding: 0;
+    width: 10%;
   }
 `;
