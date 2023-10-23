@@ -33,36 +33,7 @@ export default function Services() {
             </p>
           </HeaderInfo>
           <ServiceBox/>
-          {/* <ServiceBoxRow className="flex">
-            <ServiceBoxWrapper>
-              <ServiceBox
-                icon="social-science"
-                title="Graphic Design"
-                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
-              />
-            </ServiceBoxWrapper>
-            <ServiceBoxWrapper>
-              <ServiceBox
-                icon="environmental"
-                title="Web Design"
-                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore."
-              />
-            </ServiceBoxWrapper>
-            <ServiceBoxWrapper>
-              <ServiceBox
-                icon="innovation_1"
-                title="Development"
-                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
-              />
-            </ServiceBoxWrapper>
-            <ServiceBoxWrapper>
-              <ServiceBox
-                icon="virus_1"
-                title="Print"
-                subtitle="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor."
-              />
-            </ServiceBoxWrapper>
-          </ServiceBoxRow> */}
+          
         </div>
         <div className="lightBg">
           <div className="container">
@@ -82,24 +53,7 @@ export default function Services() {
                 <p className="font20">
                   4. Social sciences
                 </p>
-                {/* <ButtonsRow
-                  className="flexNullCenter"
-                  style={{ margin: "30px 0" }}
-                >
-                  <div style={{ width: "190px" }}>
-                    <FullButton
-                      title="Get Started"
-                      action={() => alert("clicked")}
-                    />
-                  </div>
-                  <div style={{ width: "190px", marginLeft: "15px" }}>
-                    <FullButton
-                      title="Contact Us"
-                      action={() => alert("clicked")}
-                      border
-                    />
-                  </div>
-                </ButtonsRow> */}
+                
               </AddLeft>
               <AddRight>
                 <AddRightInner>

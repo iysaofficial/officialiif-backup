@@ -153,6 +153,18 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
         </li> */}
         <li className="semiBold font15 pointer">
           <Link
+            activeClass="active"
+            style={{ padding: "10px 15px" }}
+            to="faqs"
+            spy={true}
+            smooth={true}
+            offset={-80}
+          >
+            FAQ
+          </Link>
+        </li>
+        <li className="semiBold font15 pointer">
+          <Link
             onClick={() => toggleSidebar(!sidebarOpen)}
             activeClass="active"
             className="whiteColor"

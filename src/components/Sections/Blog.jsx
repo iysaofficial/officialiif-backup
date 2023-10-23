@@ -104,6 +104,8 @@ export default function Blog() {
 const Wrapper = styled.section`
   width: 100%;
   padding-top: 20px;
+  padding-bottom: 100px;
+  
 `;
 const HeaderInfo = styled.div`
   margin-bottom: 30px;

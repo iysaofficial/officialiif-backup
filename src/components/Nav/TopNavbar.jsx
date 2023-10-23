@@ -150,12 +150,24 @@ export default function TopNavbar() {
               <Link
                 activeClass="active"
                 style={{ padding: "10px 15px" }}
+                to="faqs"
+                spy={true}
+                smooth={true}
+                offset={-80}
+              >
+                FAQ
+              </Link>
+            </li>
+            <li className="semiBold font15 pointer">
+              <Link
+                activeClass="active"
+                style={{ padding: "10px 15px" }}
                 to="contact"
                 spy={true}
                 smooth={true}
                 offset={-80}
               >
-                Contact
+                Kontak
               </Link>
             </li>
           </UlWrapper>

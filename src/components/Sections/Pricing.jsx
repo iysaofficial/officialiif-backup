@@ -80,14 +80,14 @@ export default function Pricing() {
         <div className="container">
           <Advertising className="flexSpaceCenter">
             <AddLeft>
-              <AddLeftInner>
+            </AddLeft>
+            <AddRight>
+            <AddLeftInner>
                 <ImgWrapper className="flexCenter">
                   <iframe src="https://youtube.com/embed/lbB_c5-dPwk" title="Toutube Video" ></iframe>
                 </ImgWrapper>
               </AddLeftInner>
-            </AddLeft>
-            <AddRight>
-              <h2 className="font40 extraBold">After Movie IIF Regional Jawa Timur</h2>
+              {/* <h2 className="font40 extraBold">After Movie IIF Regional Jawa Timur</h2> */}
               {/* <ButtonsRow
                 className="flexNullCenter"
                 style={{ margin: "30px 0" }}
@@ -186,7 +186,8 @@ const AddLeftInner = styled.div`
 `;
 const ImgWrapper = styled.div`
   width: 100%;
-  padding: 10%;
+  margin-left: %;
+  padding: 10rem;
   iframe {
     width: 100%;
     height: 25rem;
